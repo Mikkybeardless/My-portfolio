@@ -2,7 +2,17 @@ import Image from "next/image";
 import { Mail } from "lucide-react";
 
 export default function Home() {
-  const projects = [
+
+  type Item = {
+    id: number;
+    name: string;
+    desc: string;
+    imgSrc:  string;
+    stack:  string;
+    link: string;
+  }
+
+  const projects: Item[]  = [
     {
       id: 1,
       name: "URL shortener",
@@ -53,7 +63,7 @@ export default function Home() {
     },
   ];
 
-  const skills = [
+  const skills: string[] = [
     "JavaScript",
     "TypeScript",
     "React",
