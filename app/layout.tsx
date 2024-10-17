@@ -1,32 +1,108 @@
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import "./globals.css";
 
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
-import './globals.css'
-
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Full Stack Developer Portfolio',
-  description: 'Showcase of my skills and projects as a full stack web developer',
-}
+  title: "Full Stack Developer Portfolio | Igashi Michael",
+  description:
+    "Showcase of my skills and projects as a full stack web developer with expertise in Node.js, React, tailwind CSS, Bootstrap, Daisiui, Expressjs, Nestjs and more.",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
-      <body className= {inter.className}>
-        <header className="bg-stone-400 text-neutral-800 p-4">
-          <nav className="container mx-auto flex justify-between items-center">
-            <a href="#" className="text-xl font-bold">IGASHI MICHAEL</a>
-            <ul className="flex space-x-4">
-              <li><a href="#about" className="hover:text-gray-300">About</a></li>
-              <li><a href="#skills" className="hover:text-gray-300">Skills</a></li>
-              <li><a href="#projects" className="hover:text-gray-300">Projects</a></li>
-              <li><a href="#contact" className="hover:text-gray-300">Contact</a></li>
-            </ul>
+      <body className={inter.className}>
+        <header className="bg-stone-400 w-full mb-[12em] md:mb-[10em]   text-neutral-800 p-1">
+          <nav className="container navbar mx-auto  flex justify-between items-center">
+            <a href="#" className="text-xl font-bold">
+              IGASHI MICHAEL
+            </a>
+            <div>
+              <ul className="hidden md:flex md:space-x-4">
+                <li>
+                  <a href="#about" className="hover:text-gray-300">
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a href="#services" className="hover:text-gray-300">
+                    Services
+                  </a>
+                </li>
+                <li>
+                  <a href="#skills" className="hover:text-gray-300">
+                    Skills
+                  </a>
+                </li>
+                <li>
+                  <a href="#projects" className="hover:text-gray-300">
+                    Projects
+                  </a>
+                </li>
+                <li>
+                  <a href="#contact" className="hover:text-gray-300">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+         
+            <div className="dropdown dropdown-left  lg:hidden">
+              <label tabIndex={0} className="btn btn-ghost">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </label>
+              <ul
+                tabIndex={0}
+                className=" text-base-300 shadow-md menu menu-sm dropdown-content mt-20 z-[1] p-2 mr-10 rounded-box w-52"
+              >
+                <li>
+                  <a href="#about" className="hover:text-gray-300">
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a href="#services" className="hover:text-gray-300">
+                    Services
+                  </a>
+                </li>
+                <li>
+                  <a href="#skills" className="hover:text-gray-300">
+                    Skills
+                  </a>
+                </li>
+                <li>
+                  <a href="#projects" className="hover:text-gray-300">
+                    Projects
+                  </a>
+                </li>
+                <li>
+                  <a href="#contact" className="hover:text-gray-300">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+           
+            
           </nav>
         </header>
         <main>{children}</main>
@@ -37,5 +113,5 @@ export default function RootLayout({
         </footer>
       </body>
     </html>
-  )
+  );
 }
