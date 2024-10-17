@@ -18,7 +18,7 @@ export default function Home() {
       {/* Hero Section */}
       <section id="welcome" className="py-20 text-center min-h-screen">
         <div className="mb-4">
-          <h1 className="text-4xl font-bold mb-2  animate-fade-slide-in-left">
+          <h1 className=" text-[1.5rem] md:text-4xl font-bold mb-2  animate-fade-slide-in-left">
             {text.split("").map((letter, index) => (
               <span
                 key={index}
@@ -29,7 +29,7 @@ export default function Home() {
               </span>
             ))}
           </h1>
-          <h2 className="text-2xl font-semibold animate-fade-slide-in-right ">
+          <h2 className="text-[1.3rem] md:text-2xl font-semibold animate-fade-slide-in-right ">
             {text2.split("").map((letter, index) => (
               <span
                 key={index}
