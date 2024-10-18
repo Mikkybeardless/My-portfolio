@@ -171,7 +171,7 @@ export default function Home() {
         <p className="mb-6 text-center">Feel free to reach out to discuss projects, collaboration opportunities, or any questions you might have.</p>
         <div className="mx-auto  flex flex-col gap-2">
         <a
-            href="/pdf/Igashi_Michael_CV.pdf"
+            href="/Igashi_Michael_CV.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-stone-400 text-neutral-800 text-center py-2 rounded-full hover:bg-stone-500 hover:text-white transition-colors"
@@ -183,7 +183,6 @@ export default function Home() {
           </a>
           <a href="/pdf/Igashi_Michael_CV.pdf" download>
             <button className="flex gap-2 bg-stone-400 text-neutral-800 px-6 py-2 rounded-full hover:bg-stone-500 hover:text-white transition-colors">
-              {/* <Image src="/opencv.svg" alt="PDF Logo" width={24} height={24} /> */}
               <FaFilePdf className="text-black h-full w-6 align-middle" /><span>Download CV</span>
             </button>
           </a>
