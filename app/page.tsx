@@ -6,10 +6,7 @@ import { FaFilePdf } from "react-icons/fa";
 import { MdOutlineRemoveRedEye } from "react-icons/md";
 import { projects, services, skills } from "./lib/constants";
 
-
-
 export default function Home() {
-
   const text: string = "Hi I'm Igashi Michael";
   const text2: string = "A Full Stack Web Developer";
 
@@ -168,25 +165,28 @@ export default function Home() {
         className=" flex flex-col gap-5 justify-center py-20"
       >
         <h2 className="text-3xl font-bold text-center">Get In Touch</h2>
-        <p className="mb-6 text-center">Feel free to reach out to discuss projects, collaboration opportunities, or any questions you might have.</p>
+        <p className="mb-6 text-center">
+          Feel free to reach out to discuss projects, collaboration
+          opportunities, or any questions you might have.
+        </p>
         <div className="mx-auto  flex flex-col gap-2">
-        <a
+          <a
             href="/Igashi_Michael_CV.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-stone-400 text-neutral-800 text-center py-2 rounded-full hover:bg-stone-500 hover:text-white transition-colors"
           >
             <button className="flex gap-2 bg-stone-400 text-neutral-800 px-6  rounded-full hover:bg-stone-500 hover:text-white transition-colors">
-            <MdOutlineRemoveRedEye className="text-black h-full w-6 align-middle" />
-           <span>View CV</span> 
+              <MdOutlineRemoveRedEye className="text-black h-full w-6 align-middle" />
+              <span>View CV</span>
             </button>
           </a>
           <a href="/pdf/Igashi_Michael_CV.pdf" download>
             <button className="flex gap-2 bg-stone-400 text-neutral-800 px-6 py-2 rounded-full hover:bg-stone-500 hover:text-white transition-colors">
-              <FaFilePdf className="text-black h-full w-6 align-middle" /><span>Download CV</span>
+              <FaFilePdf className="text-black h-full w-6 align-middle" />
+              <span>Download CV</span>
             </button>
           </a>
-        
         </div>
 
         <div className="flex  justify-center space-x-6">
@@ -196,7 +196,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="text-gray-600 hover:bg-stone-500 hover:rounded-full w-10 p-1 hover:text-white"
           >
-            <FaGithub className="text-black hover:text-white w-full h-full"/>
+            <FaGithub className="text-black hover:text-white w-full h-full" />
           </a>
           <a
             href="https://www.linkedin.com/in/michael-igashi-833914268/
@@ -205,7 +205,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="text-gray-600 hover:bg-stone-500 hover:rounded-full w-10 p-1 hover:text-white"
           >
-           <FaLinkedin className="text-black hover:text-white w-full h-full"/>
+            <FaLinkedin className="text-black hover:text-white w-full h-full" />
           </a>
           <a
             href="mailto:igashimichael@gmail.com"
