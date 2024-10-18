@@ -171,7 +171,7 @@ export default function Home() {
         </p>
         <div className="mx-auto  flex flex-col gap-2">
           <a
-            href="/Igashi_Michael_CV.pdf"
+            href="/Igashi_Michael_Cv.pdf" 
             target="_blank"
             rel="noopener noreferrer"
             className="bg-stone-400 text-neutral-800 text-center py-2 rounded-full hover:bg-stone-500 hover:text-white transition-colors"
