@@ -53,7 +53,7 @@ export default function RootLayout({
               </ul>
             </div>
          
-            <div className="dropdown dropdown-left  lg:hidden">
+            <div className="dropdown dropdown-left   lg:hidden">
               <label tabIndex={0} className="btn btn-ghost">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -72,7 +72,7 @@ export default function RootLayout({
               </label>
               <ul
                 tabIndex={0}
-                className=" text-base-300 shadow-md menu menu-sm dropdown-content mt-20 z-[1] p-2 mr-10 rounded-box w-52"
+                className=" text-black shadow-md menu menu-sm dropdown-content mt-20 z-[1] p-2 mr-10 rounded-box w-52"
               >
                 <li>
                   <a href="#about" className="hover:text-gray-300">
