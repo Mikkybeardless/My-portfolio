@@ -13,7 +13,7 @@ const About = () => {
             height={300}
             className="rounded-[100%] animate-flash md:animate-moveAndFlash"
           />
-          <article className="p-10 border w-full md:w-[34rem] border-[#E6B9A6]">
+          <article className="p-5 md:p-10 border w-full md:w-[34rem] border-[#E6B9A6]">
             <p className="mb-4 text-lg px-3">
               I'm a passionate full stack developer with experience in building
               scalable, secure and reliable web applications. I enjoy solving
