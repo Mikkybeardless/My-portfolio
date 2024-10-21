@@ -42,13 +42,30 @@ const config: Config = {
       'letter-slide-in': {
         '0%': { transform: 'translateX(-100%)', opacity: '0' }, // Start offscreen to the left
         '100%': { transform: 'translateX(0)', opacity: '1' }, 
-      }
+      },
+      moveAndFlash: {
+        '0%, 100%': { 
+          transform: 'translateX(0)', 
+          opacity: '1' 
+        }, // Start at the left and visible
+        '50%': { 
+          transform: 'translateX(100%)', 
+          opacity: '0' 
+        } // Move to the right and flash (disappear)
+      },
+      flash: {
+        '0%, 100%': { opacity: '1' }, // Fully visible
+        '50%': { opacity: '0' } // Invisible
+      },
     },
     animation: {
       'letter-slide-in': 'letter-slide-in 2.5s ease-out forwards',
       'slide-up': 'slide-up 2.5s ease-out forwards',
       'fade-slide-in-left': 'fade-slide-in-left 1.5s ease-out forwards', // Combining fade and slide from the left
       'fade-slide-in-right': 'fade-slide-in-right 1.5s ease-out forwards', // Combining fade and slide from the right
+      moveAndFlash: 'moveAndFlash 15s ease-in-out infinite',
+        flash: 'flash 27s linear infinite', // 2-second cycle, runs infinitely
+      
       
     },
   },

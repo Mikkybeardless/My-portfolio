@@ -12,5 +12,11 @@ export type ListItem ={
 }
 export type Services = {
     title: string;
+    backgroundImage: string;
     list: ListItem[]
+  }
+
+  export type Skill ={
+    src: string;
+    desc: string
   }

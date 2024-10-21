@@ -2,11 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
-  background: rgb(223, 218, 211);
-  color: black;
+  
+  /* background: rgb(223, 218, 211);  */
+  background: #ECDFCC;
+  color: #B17457;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+ 
+ 
+
+  
 
 }
 
@@ -22,6 +31,28 @@ h2, h3, h4{
   font-style: normal;
 }
 
+p{
+  color: black;
+}
+
+em{
+  font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #B17457;
+}
+
 .special-font{
   font-family: "PT Serif", serif;
 }
+
+#welcome{
+  background-image: url("/background/background1.jpg");
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center center; 
+}
+
+
+
+
