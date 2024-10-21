@@ -16,29 +16,29 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-20 px-6  bg-white">
+      <section id="about" className="py-10 px-6  bg-white">
        <About/>
       </section>
 
      {/* Services Section */}
-      <section id="services" className="py-10 px-4 text-center mb-20 mx-auto">
+      <section id="services" className="py-10 md:px-4 text-center mx-auto">
         <Service/>
       </section>
 
       {/* Skills Section */}
-      <section id="skills" className="py-20 ">
+      <section id="skills" className="py-10 ">
         <Skills/>
       </section>
 
       {/* Projects Section */}
-      <section id="projects" className="py-20 px-4 ">
+      <section id="projects" className="py-10 px-4 ">
         <Projects/>
       </section>
 
       {/* Contact Section */}
       <section
         id="contact"
-        className=" flex bg-white flex-col gap-5 justify-center py-20 px-4"
+        className=" flex bg-white flex-col gap-5 justify-center py-10 px-4"
       >
         <Contact/>
       </section>

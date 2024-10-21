@@ -12,15 +12,15 @@ const Carousel = () => {
                 id={`item${index + 1}`}
                 className="carousel-item relative w-full"
               >
-                <div className={`${service.backgroundImage} text-white  bg-cover bg-center bg-no-repeat h-[20em] w-full`}>
-                  <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-                  <div className="relative z-10 flex flex-col pt-4 gap-6 py-5 h-full items-center text-white">
-                  <h3 className="text-4xl text-[#B17457]">{service.title}</h3>
+                <div className={`${service.backgroundImage} text-white  bg-cover bg-center bg-no-repeat md:h-[25em] w-full`}>
+                  <div className="absolute inset-0 bg-black bg-opacity-85"></div>
+                  <div className="relative z-10 flex flex-col pt-8 gap-6  h-full items-center ">
+                  <h3 className=" text-3xl md:text-4xl text-[#B17457]">{service.title}</h3>
 
-                   <ul className="list- px-32 text-xl">{service.list.map((l)=>(
+                   <ul className="list- md:px-32">{service.list.map((l)=>(
                     <li className="mb-5" key={l.name}>
-                      <span className="text-2xl text-[#B17457]">{l.name}: </span>
-                      <span>{l.desc}</span>
+                      <h4 className="text-2xl font-light text-[#B17457]">{l.name}: </h4>
+                      <p className="text-center text-xl md:text-left text-white">{l.desc}</p>
                     </li>
 
                    ))}</ul>

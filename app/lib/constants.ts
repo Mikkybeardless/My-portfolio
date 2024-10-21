@@ -77,11 +77,11 @@ export const services: Services[] = [
     list: [
       {
         name: "Responsive UI Design",
-        desc: "Craft visually appealing and responsive interfaces, ensuring your web applications look great across devices.",
+        desc: "Craft visually stunning, responsive interfaces that work flawlessly across all devices",
       },
       {
         name: "Next.js Expertise",
-        desc: "Build optimized, SEO-friendly web applications with Next.js, leveraging its powerful server-side rendering and static site generation features for faster load times and better user experience.",
+        desc: "Build SEO-friendly web applications with Next.js, optimizing performance with server-side rendering and static site generation",
       },
     ],
   },
@@ -91,15 +91,15 @@ export const services: Services[] = [
     list: [
       {
         name: "Server-Side Logic",
-        desc: "Develop robust and scalable server-side applications using Node.js, Express, and Nest.js, ensuring your backend is efficient and secure.",
+        desc: "Develop secure, scalable backends using Node.js, Express, and Nest.js to ensure efficient server-side performance",
       },
       {
         name: "Database Management",
-        desc: "Design and manage databases using SQL and MongoDB, ensuring structured and unstructured data is handled efficiently with performance in mind.",
+        desc: "Design and manage databases with SQL and MongoDB, handling both structured and unstructured data for optimal performance",
       },
       {
         name: "REST APIs & Web Sockets",
-        desc: "Create and maintain RESTful APIs and real-time communication channels using Web Sockets, providing seamless interaction between frontend and backend systems.",
+        desc: "Create RESTful APIs and real-time communication with WebSockets, ensuring smooth interactions between frontend and backend systems.",
       },
     ],
   },
@@ -109,15 +109,15 @@ export const services: Services[] = [
     list: [
       {
         name: "End-to-End Application Development",
-        desc: "Build full-fledged web applications from the ground up, integrating frontend and backend technologies to create a smooth, cohesive product.",
+        desc: "Deliver full-stack solutions that seamlessly integrate frontend and backend technologies for a cohesive user experience",
       },
       {
         name: "Version Control & Collaboration",
-        desc: "Use Git for effective version control, ensuring clean code management and seamless team collaboration on projects.",
+        desc: "Leverage Git for version control, promoting clean code management and collaboration",
       },
       {
         name: "Learning & Adopting Docker",
-        desc: "Continuously expanding my toolkit by learning Docker to implement containerization for easier deployment and consistent environments.",
+        desc: "Continuously growing by learning Docker for streamlined deployments and consistent development environments",
       },
     ],
   },

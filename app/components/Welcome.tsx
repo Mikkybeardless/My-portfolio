@@ -7,7 +7,7 @@ const Welcome = () => {
   return (
     <>
       <div className="mb-4">
-          <h1 className=" text-[1.5rem] md:text-[4rem] font-extrabold mb-2  animate-fade-slide-in-left">
+          <h1 className=" text-[2rem] md:text-[4rem] font-extrabold mb-2  animate-fade-slide-in-left">
             {text.split("").map((letter, index) => (
               <span
                 key={index}

@@ -6,8 +6,8 @@ const Skills = () => {
   return (
     <>
     <h2 className="text-3xl font-bold mb-8 text-center">My Skills</h2>
-    <div className="bg-[url(/background/background2.jpg)] relative h-full w-full bg-cover bg-center bg-no-repeat py-2">
-      <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+    <div className="bg-[url(/background/background2.jpg)] relative h-full w-full bg-cover bg-center bg-no-repeat py-4">
+      <div className="absolute inset-0 bg-black bg-opacity-70"></div>
       <div className="relative z-10 h-full ">
       
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-20  ">

@@ -14,7 +14,7 @@ const About = () => {
             className="rounded-[100%] animate-flash md:animate-moveAndFlash"
           />
           <article className="p-10 border w-full md:w-[34rem] border-[#E6B9A6]">
-            <p className="mb-4 px-3">
+            <p className="mb-4 text-lg px-3">
               I'm a passionate full stack developer with experience in building
               scalable, secure and reliable web applications. I enjoy solving
               complex problems and learning new technologies.
