@@ -13,12 +13,12 @@ const Carousel = () => {
                 className="carousel-item relative w-full"
               >
                 <div className={`${service.backgroundImage} text-white  bg-cover bg-center bg-no-repeat md:h-[25em] w-full`}>
-                  <div className="absolute inset-0 bg-black bg-opacity-85"></div>
+                  <div className="absolute inset-0 bg-black bg-opacity-65"></div>
                   <div className="relative z-10 flex flex-col pt-8 gap-6  h-full items-center  ">
                   <h3 className=" text-3xl md:text-4xl text-[#B17457]">{service.title}</h3>
 
                    <ul className=" md:px-32">{service.list.map((l)=>(
-                    <li className="mb-5 px-2" key={l.name}>
+                    <li className="mb-5 px-4 md:px-2" key={l.name}>
                       <h4 className="text-2xl font-light text-[#B17457]">{l.name}: </h4>
                       <p className=" text-xl text-left text-white">{l.desc}</p>
                     </li>

@@ -3,7 +3,7 @@ import React from 'react'
 const NavBar = () => {
   return (
     <nav className="container navbar mx-auto  flex justify-between items-center">
-    <a href="#" className="text-xl text-[#DEE5D4] font-bold">
+    <a href="#" className="text-xl text-white font-bold">
       IGASHI MICHAEL
     </a>
     <div>

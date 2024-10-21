@@ -3,6 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { MdMailOutline } from "react-icons/md";
 import { FaFilePdf } from "react-icons/fa";
 import { MdOutlineRemoveRedEye } from "react-icons/md";
+import { FaXTwitter } from "react-icons/fa6";
 
 
 const Contact = () => {
@@ -56,6 +57,13 @@ const Contact = () => {
             className=" hover:bg-[#E6B9A6] hover:rounded-full w-10 p-1 hover:text-white"
           >
             <MdMailOutline className="text-black hover:text-white w-full h-full" />
+          </a>
+
+          <a href="https://x.com/IgashiMichael"
+           className=" hover:bg-[#E6B9A6] hover:rounded-full w-10 p-1 hover:text-white"
+          >
+
+          <FaXTwitter className="text-black hover:text-white w-full h-full" />
           </a>
         </div> 
     </>
