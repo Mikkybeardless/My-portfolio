@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { MdMailOutline } from "react-icons/md";
