@@ -16,18 +16,18 @@ const Contact = () => {
         </p>
         <div className="mx-auto  flex flex-col gap-2">
           <a
-            href="/pdf/Igashi_Michael_CV.pdf" 
+            href="/pdf/Igashi_fullStack.pdf" 
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[#E6B9A6] text-neutral-800 text-center py-2 rounded-full hover:bg-[##B17457] hover:text-white transition-colors"
+            className="bg-[#E6B9A6] text-neutral-800 px-4 py-2 rounded-full hover:bg-[##B17457] hover:text-white transition-colors"
           >
-            <button className="flex gap-2 align-middle bg-[#E6B9A6] text-neutral-800 px-6  rounded-full hover:bg-[##B17457] hover:text-white transition-colors">
+            <button className="flex gap-2 align-middle items-center bg-[#E6B9A6] text-neutral-800 md:px-6 text-sm md:text-base   rounded-full hover:bg-[##B17457] hover:text-white transition-colors">
               <MdOutlineRemoveRedEye className="text-black h-full w-6 align-middle" />
               <span>View CV</span>
             </button>
           </a>
-          <a href="/pdf/Igashi_Michael_CV.pdf" download>
-            <button className="flex gap-2 align-middle bg-[#E6B9A6] text-neutral-800 px-6 py-2 rounded-full hover:bg-[##B17457] hover:text-white transition-colors">
+          <a href="/pdf/Igashi_fullStack.pdf" download>
+            <button className="flex gap-2 align-middle bg-[#E6B9A6] text-neutral-800 px-2 md:px-6 text-sm md:text-base py-2 rounded-full hover:bg-[##B17457] hover:text-white transition-colors">
               <FaFilePdf className="text-black h-full w-6 align-middle" />
               <span>Download CV</span>
             </button>

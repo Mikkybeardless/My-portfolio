@@ -47,11 +47,14 @@ em{
 }
 
 #welcome{
-  background-image: url("/background/background1.jpg");
+  background: url("/background/compressed_bg.jpg");
   background-size: cover; 
   background-repeat: no-repeat; 
   background-position: center center; 
+  
 }
+
+
 
 
 
